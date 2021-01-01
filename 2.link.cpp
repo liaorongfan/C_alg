@@ -23,12 +23,12 @@ typedef struct List {
 
 ListNode *getNewNode(int);
 List *getLinkList();
-void clear_node(ListNode *);
-void clear(List *);
 int insert(List *, int, int);
 int erase(List *, int);
-void output(List *);
 void reverse(List *);
+void output(List *);
+void clear_node(ListNode *);
+void clear(List *);
 
 int main() {
     srand(time(0));
